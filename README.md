@@ -1,4 +1,4 @@
-# Portfolio App with react js (primereacte
+# Portfolio App with react js (primereacte)
 
 ## Dependencies
 
