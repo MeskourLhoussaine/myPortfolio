@@ -24,13 +24,13 @@ function Navbar() {
 
     return (
 
-        <TabMenu  model={items.map(item => ({
+        <TabMenu model={items.map(item => ({
             template: (
                 <Link to={item.to}  style={{color:'#3d005f',fontWeight: 'bold',margin:'10px'}}>
                 {item.label}
               </Link>
             ),
-        }))} breakpoint="960px" style={{display: 'flex', justifyContent: 'center',backgroundColor:'#0099FF',borderRadius:'50%', boxShadow:'50px'}} />
+        }))} breakpoint="960px" style={{display: 'flex', justifyContent: 'center',backgroundColor:'#61dafb',borderRadius:'50%', boxShadow:'50px'}} />
     )
 }
 
